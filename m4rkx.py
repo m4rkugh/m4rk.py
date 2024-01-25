@@ -1,4 +1,4 @@
-#Papanins
+#FBLINK: https://www.facebook.com/m4rk.sy
 #Facebook: Mark Sy
 #Github : https://github.com/m4rkugh
 from os import path
@@ -643,7 +643,7 @@ def apix(ids,passlist):
 		
 
 
-		
-Spy()
+
+
 	
 	
